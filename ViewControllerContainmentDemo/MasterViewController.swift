@@ -60,7 +60,7 @@ class MasterViewController: UIViewController {
 		updateView()
 	}
 	
-	// MARK: - helper methods
+	// MARK: - helper methods for view containment apis
 	func addViewControllerAsChildViewController(childViewController: UIViewController) {
 		addChild(childViewController)
 		self.view.addSubview(childViewController.view)
